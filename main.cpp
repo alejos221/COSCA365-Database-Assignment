@@ -80,7 +80,6 @@ void write_data(Person p) {
     file.write(p.lastName.c_str(), 15); // write 15 chars for last name
     file.write(to_string(p.income).c_str(), 10); // write 10 chars after converting to string
     file.flush();
-    cout << "Success";
 }
 
 void new_employee() {
